@@ -22,7 +22,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          'https://ai-mern-image-generator-api.onrender.com/api/v1/dalle',
+          'https://midjourneycore.onrender.com/api/v1/dalle',
           {
             method: 'POST',
             headers: {
@@ -55,7 +55,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          'https://ai-mern-image-generator-api.onrender.com/api/v1/posts',
+          'https://midjourneycore.onrender.com/api/v1/posts',
           {
             method: 'POST',
             headers: {
