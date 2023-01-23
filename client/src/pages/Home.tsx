@@ -30,7 +30,7 @@ const Home = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          'https://ai-mern-image-generator-api.onrender.com/api/v1/posts',
+          'https://midjourneycore.onrender.com/api/v1/posts',
           {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
