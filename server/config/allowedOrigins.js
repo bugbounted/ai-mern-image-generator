@@ -1,3 +1,3 @@
-const allowedOrigins = ['https://ai-image-generator-obqp.onrender.com'];
+const allowedOrigins = ['https://midjourneycore.onrender.com'];
 
 export default allowedOrigins;
