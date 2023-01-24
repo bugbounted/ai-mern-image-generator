@@ -1,3 +1,3 @@
-const allowedOrigins = ['https://midjourneycore.onrender.com'];
+const allowedOrigins = ['https://tasvirgar.onrender.com'];
 
 export default allowedOrigins;
